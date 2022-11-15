@@ -1,0 +1,155 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576.98px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px){ 
+     
+
+
+
+    /* banner part end */
+    
+}
+
+
+@media (max-width: 767.98px) { 
+  .menu_bg{
+    background-color: #e88583;
+   }
+  .menu_bg img{
+    width: 90%;
+  }
+  .menu_bg i{
+     color: white;
+     font-size: 18px;
+  }
+ .navbar-light .navbar-toggler {
+     border-color: white;
+}
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 transparent;
+}
+.menu_bg ul{
+  text-align: center;
+}
+.menu_bg ul li a::after{
+  display: none;
+}
+.menu_bg ul li a{
+  font-size: 13px;
+}
+#service .service_head h2::after{
+  left: 45%;
+}
+
+
+/* navbar part end */
+
+
+/* banner part start */
+#banner .carousel-item {
+	height: 500px;
+}
+ #banner .banner_inner h4{
+     font-size: 40px;
+ }
+ #banner .banner_inner h2{
+    font-size: 65px; 
+}
+#banner .banner_inner h3{
+     font-size: 50px;
+}
+#banner .banner_inner button{
+     margin-top: 30px;
+     font-size: 16px;
+}
+#banner .banner_inner button{
+  margin-top: 30px;
+}
+/* banner part end */
+
+/* team part start */
+#team .team_img_over ul li {
+  padding-bottom: 5px;
+}
+/* team part end */
+
+/* slider part start */
+#slider .sli_arr .next{
+  left: -20px;
+}
+#slider .sli_arr .prev{
+  right: -10px;
+}
+#slider .slide_icon i{
+  font-size: 32px;
+  padding: 30px;
+}#slider .slide_text p{
+  font-size: 13px;
+}
+#slider .slide_text h6{
+  font-size: 16px;
+}
+/* slider part end */
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.menu_bg ul li a{
+   font-size: 13px;
+}
+#banner .banner_inner h4{
+  font-size: 35px;
+}
+#banner .banner_inner h2{
+ font-size: 60px; 
+}
+#banner .banner_inner h3{
+  font-size: 45px;
+}
+#banner .banner_inner button{
+  margin-top: 25px;
+  font-size: 14px;
+}
+#banner .banner_inner button{
+margin-top: 25px;
+}
+#counter_part p{
+  font-size: 13px;
+}
+#service .service_head h2::after{
+  left: 310px;
+}
+/* slider part start */
+#slider .sli_arr .next{
+  left: -20px;
+}
+#slider .sli_arr .prev{
+  right: -10px;
+}
+#slider .slide_icon{
+  margin-left: 40px;
+}
+#slider .slide_icon i{
+  font-size: 32px;
+  padding: 25px;
+}
+#slider .slide_text p{
+  font-size: 12px;
+}
+#slider .slide_text h6{
+  font-size: 14px;
+}
+/* slider part end */
+
+
+
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1200px) and (min-width: 1399.98px){ }

@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lightbox</title>
+    <!-- bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <!-- google fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+     <link rel="stylesheet" href="css/all.min.css">
+      <!-- slick css link -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+     <!-- navbar part start -->
+    <nav class="navbar navbar-expand-md navbar-light menu_bg">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="images/1.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li> 
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+    <!-- navbar part end -->
+
+    <!-- banner part start -->
+     <section id="banner">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background: url(images/2.jpg) no-repeat center / cover;">
+                
+                    <div class="banner_inner">
+                        <h4>creative template</h4>
+                        <h2>welcome</h2>
+                        <h3>to mogo</h3>
+                        <button>learn more</button>
+                    </div>
+                  </div>
+              <div class="carousel-item" style="background: url(images/2.jpg) no-repeat center / cover;">
+                
+                <div class="banner_inner">
+                    <h4>creative template</h4>
+                    <h2>welcome</h2>
+                    <h3>to mogo</h3>
+                    <button>learn more</button>
+                </div>
+              </div>
+              <div class="carousel-item" style="background: url(images/2.jpg) no-repeat center / cover;">
+                
+                <div class="banner_inner">
+                    <h4>creative template</h4>
+                    <h2>welcome</h2>
+                    <h3>to mogo</h3>
+                    <button>learn more</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+           </button>
+     </section>
+    <!-- banner part end -->
+
+
+    <!-- about part start -->
+   <section id="about">
+      <div class="container">
+          <div class="row justify-content-center py-5">
+               <div class="col-lg-10 text-center">
+                     <div class="about_head">
+                           <h4>what we do</h4>
+                           <h2>story about us</h2>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                     </div>
+               </div>  
+          </div>
+          <div class="row">
+               <div class="col-lg-4 col-sm-6 col-12">
+                  <div class="about_img">
+                       <img src="images/3.jpg" class="w-100" alt="">
+                        <div class="about_overlay">
+                           <div class="about_text">
+                               <i class="fa-solid fa-user"></i>
+                               <h5>super team</h5>
+                           </div>
+                        </div>
+                  </div>
+               </div>
+               <div class="col-lg-4 col-sm-6 col-12">
+                <div class="about_img">
+                     <img src="images/4.jpg" class="w-100" alt="">
+                      <div class="about_overlay">
+                         <div class="about_text">
+                            <i class="fa-regular fa-user"></i>
+                             <h5>super team</h5>
+                         </div>
+                      </div>
+                </div>
+               </div>
+               <div class="col-lg-4 d-none d-lg-block">
+                <div class="about_img">
+                     <img src="images/5.jpg" class="w-100" alt="">
+                      <div class="about_overlay">
+                         <div class="about_text">
+                             <i class="fa-solid fa-user"></i>
+                             <h5>super team</h5>
+                         </div>
+                      </div>
+                </div>
+              </div>
+          </div>
+      </div>
+   </section>
+    <!-- about part end -->
+
+
+    <!-- counter part start -->
+     <section id="counter_part" class="my-5">
+        <div class="container">
+              <div class="row">
+                    <div class="col-lg col-sm-6 col-md">
+                        <div class="counter_item">
+                            <span class="counter">1,234,567</span>
+                            <p>web design contact</p>
+                        </div>
+                    </div>
+                    <div class="col-lg col-sm-6 col-md">
+                      <div class="counter_item">
+                          <span class="counter">1,234,567</span><span>30</span>
+                          <p>happy client</p>
+                      </div>
+                   
+                    </div>
+                    <div class="col-lg col-sm-6 col-md">
+                      <div class="counter_item">
+                          <span class="counter">1,234,567</span>
+                          <p>award winner</p>
+                      </div>
+                    </div>
+                    <div class="col-lg col-sm-6 col-md">
+                      <div class="counter_item">
+                          <span class="counter">1,234,567</span>
+                          <p>cup & coffee</p>
+                      </div>
+                    </div>
+                    <div class="col-lg col-sm-6 d-none d-none d-md-block col-md">
+                      <div class="counter_item">
+                          <span class="counter">1,234,567</span>
+                          <p>members</p>
+                      </div>
+                    </div>
+              </div>
+        </div>
+      </section>
+    <!-- counter part end -->
+
+
+    <!-- service part start -->
+     <section id="service">
+         <div class="container">
+             <div class="row justify-content-center">
+                  <div class="col-lg-4 py-5 text-center">
+                       <div class="service_head">
+                             <h4>we work with</h4>
+                             <h2>amazing services</h2>
+                       </div>
+                  </div>
+             </div>
+             <div class="row">
+                 <div class="col-lg-4 py-3 col-sm-6">
+                     <div class="ser_item">
+                          <i class="fa-solid fa-clock"></i>
+                          <h5>photography</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                     </div>
+                 </div>
+                 <div class="col-lg-4 py-3 col-sm-6">
+                  <div class="ser_item">
+                    <i class="fa-solid fa-film"></i>
+                       <h5>web design</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 py-3 col-sm-6">
+                  <div class="ser_item">
+                    <i class="fa-solid fa-palette"></i>
+                       <h5>creativity</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 py-3 col-sm-6">
+                  <div class="ser_item">
+                    <i class="fa-brands fa-intercom"></i>
+                       <h5>seo</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                  </div>
+                </div>
+                <div class="col-lg-4 py-3 col-sm-6">
+                  <div class="ser_item">
+                    <i class="fa-solid fa-house-user"></i>
+                       <h5>css/html</h5>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                  </div>
+               </div>
+               <div class="col-lg-4 py-3 col-sm-6">
+                <div class="ser_item">
+                  <i class="fa-solid fa-calendar-week"></i>
+                     <h5>digital</h5>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+             </div>
+         </div>
+     </section>
+    <!-- service part end -->
+
+
+
+    <!-- slick slider part start -->
+     <section id="slider">
+        <div class="container sli_arr">
+          <i class="fa-solid fa-angle-left next"></i>
+          <i class="fa-solid fa-angle-right prev"></i>
+             <div class="row justify-content-center">
+                 <div class="col-lg-10 one">
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-lg-3 col-sm-3">
+                            <div class="slide_icon">
+                               <i class="fa-solid fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-sm-9">
+                            <div class="slide_text">
+                             <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                              <h6>jon doe</h6>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-lg-3 col-sm-3">
+                            <div class="slide_icon">
+                               <i class="fa-solid fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-sm-9">
+                            <div class="slide_text">
+                             <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                              <h6>jon doe</h6>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-12">
+                      <div class="row">
+                        <div class="col-lg-3 col-sm-3">
+                            <div class="slide_icon">
+                               <i class="fa-solid fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-sm-9">
+                            <div class="slide_text">
+                             <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                              <h6>jon doe</h6>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                       <!-- <div class="row">
+                           <div class="col-lg-3">
+                               <div class="slide_icon">
+                                  <i class="fa-solid fa-comments"></i>
+                               </div>
+                           </div>
+                           <div class="col-lg-9">
+                               <div class="slide_text">
+                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                  ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                                 <h6>jon doe</h6>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                         <div class="col-lg-3">
+                            <div class="slide_icon">
+                               <i class="fa-solid fa-comments"></i>
+                            </div>
+                         </div>
+                         <div class="col-lg-9">
+                            <div class="slide_text">
+                             <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                              <h6>jon doe</h6>
+                            </div>
+                         </div>
+                       </div>
+                       <div class="row">
+                        <div class="col-lg-3">
+                            <div class="slide_icon">
+                               <i class="fa-solid fa-comments"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9">
+                            <div class="slide_text">
+                             <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.”</p>
+                              <h6>jon doe</h6>
+                            </div>
+                         </div>
+                       </div> -->
+                      
+                 </div>
+             </div>
+       </div>
+     </section>
+    <!-- slick slider part end -->
+
+
+    <!-- team part start -->
+    <section id="team">
+        <div class="container">
+             <div class="row justify-content-center">
+                  <div class="col-lg-10 text-center">
+                      <div class="team_head">
+                        <h4>who we are</h4>
+                        <h2>meet our team</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                          minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                      </div>
+                  </div>
+             </div>
+             <div class="row py-5">
+                 <div class="col-lg-4 team_main col-sm-6">
+                      <div class="team_item">
+                            <img src="images/7.jpg" alt="">
+                           <div class="team_img_over">
+                            <ul>
+                               <li><i class="fa-brands fa-facebook-f"></i></li>
+                               <li><i class="fa-brands fa-twitter"></i></li>
+                               <li><i class="fa-brands fa-pinterest"></i></li>
+                               <li><i class="fa-solid fa-camera-retro"></i></li>
+                            </ul>
+                           </div>
+                      </div>
+                      <div class="team_text">
+                        <h4>matthew dix</h4>
+                        <p>graphice design</p>
+                    </div>
+                 </div>
+                 <div class="col-lg-4 col-sm-6 team_main">
+                  <div class="team_item">
+                        <img src="images/6.jpg" alt="">
+                       <div class="team_img_over">
+                        <ul>
+                           <li><i class="fa-brands fa-facebook-f"></i></li>
+                           <li><i class="fa-brands fa-twitter"></i></li>
+                           <li><i class="fa-brands fa-pinterest"></i></li>
+                           <li><i class="fa-solid fa-camera-retro"></i></li>
+                        </ul>
+                       </div>
+                  </div>
+                  <div class="team_text">
+                    <h4>christopher campbell</h4>
+                    <p>branding/ux designer</p>
+                </div>
+               </div>
+               <div class="col-lg-4 d-none d-lg-block team_main">
+                <div class="team_item">
+                      <img src="images/8.jpg" alt="">
+                     <div class="team_img_over">
+                      <ul>
+                         <li><i class="fa-brands fa-facebook-f"></i></li>
+                         <li><i class="fa-brands fa-twitter"></i></li>
+                         <li><i class="fa-brands fa-pinterest"></i></li>
+                         <li><i class="fa-solid fa-camera-retro"></i></li>
+                      </ul>
+                     </div>
+                </div>
+                <div class="team_text">
+                  <h4>michael fertic</h4>
+                  <p>developer</p>
+              </div>
+             </div>
+             </div>
+        </div>
+    </section>
+    <!-- team  part end -->
+
+
+
+    <!-- work part start -->
+    <section id="work">
+      <div class="container">
+           <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <div class="work_head">
+                      <h4>who we do</h4>
+                      <h2>some of our work</h2>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                 
+                    </div>
+                </div>
+           </div>
+      </div>
+      <div class="work_main py-5">
+          <div class="container-fluid">
+               <div class="row">
+                    <div class="col-lg-3 col-sm-6 p-0">
+                        <div class="work_item">
+                              <img src="images/9.jpg" alt="">
+                              <div class="work_item_over">
+                                   <div class="work_over_in">
+                                    <i class="fa-solid fa-image"></i>
+                                    <h5>creatively design</h5>
+                                    <p>lorem ipsum dolor sit</p>
+                                   </div>
+                              </div>
+                        </div>
+                        <div class="work_item">
+                          <img src="images/10.jpg" alt="">
+                          <div class="work_item_over">
+                               <div class="work_over_in">
+                                <i class="fa-solid fa-image"></i>
+                                <h5>creatively design</h5>
+                                <p>lorem ipsum dolor sit</p>
+                               </div>
+                          </div>
+                    </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 p-0">
+                      <div class="work_item">
+                            <img src="images/11.jpg" alt="">
+                            <div class="work_item_over">
+                                 <div class="work_over_in">
+                                  <i class="fa-solid fa-image"></i>
+                                  <h5>creatively design</h5>
+                                  <p>lorem ipsum dolor sit</p>
+                                 </div>
+                            </div>
+                      </div>
+                      <div class="work_item">
+                        <img src="images/12.jpg" alt="">
+                        <div class="work_item_over">
+                             <div class="work_over_in">
+                              <i class="fa-solid fa-image"></i>
+                              <h5>creatively design</h5>
+                              <p>lorem ipsum dolor sit</p>
+                             </div>
+                        </div>
+                  </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 p-0">
+                      <div class="work_item">
+                            <img src="images/13.jpg" alt="">
+                            <div class="work_item_over">
+                                 <div class="work_over_in">
+                                  <i class="fa-solid fa-image"></i>
+                                  <h5>creatively design</h5>
+                                  <p>lorem ipsum dolor sit</p>
+                                 </div>
+                            </div>
+                      </div>
+                   </div>
+                   <div class="col-lg-3 col-sm-6 p-0">
+                    <div class="work_item">
+                          <img src="images/14.jpg" alt="">
+                          <div class="work_item_over">
+                               <div class="work_over_in">
+                                <i class="fa-solid fa-image"></i>
+                                <h5>creatively design</h5>
+                                <p>lorem ipsum dolor sit</p>
+                               </div>
+                          </div>
+                    </div>
+                    <div class="work_item">
+                      <img src="images/15.jpg" alt="">
+                      <div class="work_item_over">
+                           <div class="work_over_in">
+                            <i class="fa-solid fa-image"></i>
+                            <h5>creatively design</h5>
+                            <p>lorem ipsum dolor sit</p>
+                           </div>
+                      </div>
+                </div>
+                  </div>
+               </div>
+          </div>
+      </div>
+  </section>
+    <!-- work part end -->
+
+
+    <!--footer  part start -->
+    <section id="footer">
+      <div class="container py-5 px-5 ">
+        <div class="row fot">
+           <div class="col-lg-4 foot_main">
+               <a href=""><img src="images/1.png" alt=""></a>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                <h6>15K <span>followers</span></h6>
+
+                <p>Follow Us:  
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-solid fa-t"></i>
+                </p>
+                <form>
+                  <input type="email" name="" placeholder="Email">
+                  <button>k</button>
+                </form>
+                
+           </div>
+           <div class="col-lg-4">
+               <h6>BLOGS</h6>
+                  <div class="foot_blg">
+                     <img src="images/16.jpg" alt="">
+                     <div class="foot_para">
+                      <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing
+                     </p>
+                     <h6>Jan 9, 2016</h6>
+                     </div>
+                  </div>
+                  <div class="foot_blg">
+                    <img src="images/17.jpg" alt="">
+                    <div class="foot_para">
+                     <p>Lorem ipsum dolor sit amet, 
+                       consectetur adipiscing
+                    </p>
+                    <h6>Jan 9, 2016</h6>
+                    </div>
+                 </div>
+                 <div class="foot_blg">
+                  <img src="images/18.jpg" alt="">
+                  <div class="foot_para">
+                   <p>Lorem ipsum dolor sit amet, 
+                     consectetur adipiscing
+                  </p>
+                  <h6>Jan 9, 2016</h6>
+                  </div>
+               </div>
+          </div>
+          <div class="col-lg-4 foot_Pic ">
+              <h3>INSTRAGRAM</h3>
+              <div class="foot_img">
+                   <img src="images/19.jpg" alt="">
+                   <img src="images/20.jpg" alt="">
+                   <img src="images/21.jpg" alt="">
+                   <img src="images/22.jpg" alt="">
+                   <img src="images/23.jpg" alt="">
+                   <img src="images/24.jpg" alt="">
+                   <img src="images/25.jpg" alt="">
+                   <img src="images/26.jpg" alt="">
+                   <img class="d-sm-none" src="images/27.jpg" alt="">
+              </div>
+                <p>view more photo</p>
+          </div>
+        </div>
+       <div class="footer_text">
+         <p>© 2016 MoGo free PSD template by <span>Laaqiq</span></p>
+       </div>
+      </div>
+   </section>
+    <!-- footer part end -->
+
+
+
+<!-- bootstrap bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- jquery -->
+<script src="js/jquery-1.12.4.min.js"></script>
+<!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script> -->
+   <!-- counter up js link -->
+   <script src="js/jquery.counterup.min.js"></script>
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <!-- slick js link -->
+    <script src="js/slick.min.js"></script>
+<!-- custom js -->
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/* custom css end */
+
+/* navbar part start */
+.menu_bg{
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+}
+.menu_bg ul{
+    padding-top: 10px;
+    
+}
+.menu_bg ul li a{
+    text-transform: uppercase;
+    font-size: 14px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding-left: 20px !important;
+    color: white;
+}
+.menu_bg ul li a:hover{
+    color: #f0d68a !important;
+}
+.menu_bg ul li a::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 18px;
+    height: 2px;
+    width: 70%;
+    background-color: #f0d68a;
+    opacity: 0;
+}
+.menu_bg ul li a:hover::after{
+    opacity: 1;
+    z-index: 3;
+}
+/* navbar part end */
+
+/* banner part start */
+#banner .carousel-item{
+    height: 700px;
+    position: relative;
+    z-index: 1;
+}
+#banner .carousel-item::after{
+   position: absolute;
+   content: '';
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(#e88583, #f0d68a);
+   z-index: -1;
+}
+#banner .carousel-item h4{
+    font-family: 'Kaushan Script';
+    font-size: 62px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+#banner .carousel-item h2{
+    font-size: 90px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
+}
+#banner .carousel-item h3{
+    font-size: 90px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif; 
+    text-transform: uppercase;
+}
+#banner .carousel-item button{
+    padding: 10px 15px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif; 
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+#banner .carousel-item button:hover{
+    background: #e88583;
+    color: black;
+    border: 1px solid black;
+}
+#banner .carousel-inner{
+    position: relative;
+}
+#banner .banner_inner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+/* banner part end */
+
+
+/* about part start */
+#about .about_head h4{
+     font-size: 24px;
+     font-weight: 400;
+     font-family: 'Kaushan Script';
+}
+#about .about_head h2{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30;
+    font-weight: 600;
+}
+#about .about_head p{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+#about .about_img{
+    position: relative;
+}
+#about .about_overlay{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #e88583;
+    opacity: 0;
+    text-align: center;
+}
+#about .about_img:hover .about_overlay{
+    opacity: 1;
+}
+#about .about_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+#about .about_img .about_text i{
+    font-size: 20px;
+    color: #f0d68a;
+}
+#about .about_img .about_text h5{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+/* about part end */
+
+
+/* counter part start */
+#counter_part{
+    background: #95e1d3;
+}
+#counter_part .counter_item{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+/* counter part end */
+
+
+/* service part start */
+#service .service_head h4{
+    font-family: 'Kaushan Script';
+    font-size: 18px;
+    font-weight: 400;
+}
+#service .service_head h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+}
+#service .service_head h2::after{
+    position: absolute;
+    content: '';
+    top: 55px;
+    left: 180px;
+    height: 3px;
+    width: 50px;
+    background-color: red;
+}
+#service .ser_item{
+    padding-left: 10px;
+    position: relative;
+    border: 1px solid #95e1d3;
+    padding: 20px 57px;
+}
+#service .ser_item i{
+    position: absolute;
+    top: 22px;
+    left: 30px;
+    color: #95e1d3;
+    font-size: 25px;
+}
+
+#service .ser_item h5{
+    text-transform: uppercase;
+    font-family: 'Kaushan Script';
+    font-weight: 600;
+    font-size: 20px;
+}
+#service .ser_item p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+/* service part end */
+
+
+/* slider part start */
+#slider{
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 80px 0;
+    margin: 50px 0;
+}
+#slider .slide_icon i{
+    font-size: 45px;
+    border: 2px solid #95e1d3;
+    padding: 40px;
+    color: #95e1d3;
+}
+#slider .sli_arr{
+    position: relative;
+}
+#slider .sli_arr .next{
+   position: absolute;
+   top: 35%;
+   left: 40px;
+   font-size: 27px;
+   color: #95e1d3;
+}
+#slider .sli_arr .prev{
+    position: absolute;
+   top: 35%;
+   right: 40px;
+   font-size: 27px;
+   color: #95e1d3;
+}
+#slider .slide_text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+#slider .slide_text h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    position: relative;
+}
+
+/* slider part end */
+
+
+
+/* team part start */
+#team .team_head h4{
+    font-family: 'Kaushan Script';
+    font-size: 20px;
+    font-weight: 500;
+}
+#team .team_head h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+#team .team_head p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#team .team_item img{
+    width: 100%;
+}
+#team .team_item{
+    position: relative;
+}
+#team .team_item:hover .team_img_over{
+    opacity: 1;
+}
+#team .team_item .team_img_over{
+   position: absolute;
+   top: 0px;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   background-image: linear-gradient(#e885838a, #f0d68a83);
+   opacity: 0;
+}
+#team .team_item .team_img_over i{
+    font-size: 16px;
+    height: 40px;
+    width: 40px;
+    
+    text-align: center;
+    line-height: 40px;
+    background: #f0d68a;
+    color: #e88583;
+}
+#team .team_item .team_img_over ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+#team .team_item .team_img_over ul li{
+    display: inline-block;
+    
+}
+#team .team_item .team_img_over ul li i:hover{
+    color: #f0d68a;
+    background: #e88583;
+}
+#team .team_text {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+#team .team_text h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+#team .team_text p{
+    text-transform: capitalize;
+    font-weight: 400;
+}
+/* team part end */
+
+
+
+/* work part start */
+
+#work .work_head h4{
+    font-family: 'Kaushan Script';
+    font-size: 20px;
+    font-weight: 500;
+}
+#work .work_head h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+#work .work_head p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+#work .work_item{
+    position: relative;
+}
+#work .work_item_over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#e88583f4, #f0d68aeb);
+    text-align: center;
+    color: white;
+    opacity: 0;
+}
+#work .work_item:hover .work_item_over{
+    opacity: 1;
+}
+#work .work_over_in{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans', sans-serif;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+#work .work_item img{
+    width: 100%;
+}
+#work .work_over_in i{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+#work .work_over_in h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+#work .work_over_in p{
+    text-transform: capitalize;
+}
+/* work part end */
+
+
+
+/* footer part start */
+#footer{
+    background-color: rgba(128, 128, 128, 0.27);
+}
+.foot_main p{
+    margin: 20px 0;
+}
+.foot_main h6{
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+}
+.foot_main input{
+    position: relative;
+    width: 100%;
+}
+.foot_main button{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+}
+.foot_blg{
+    display: flex;
+    margin: 20px 0;
+}
+.foot_blg p{
+    padding-left: 10px;   
+}
+.foot_blg h6{
+    padding-left: 10px;   
+}
+.foot_img img{
+    margin: 5px;
+    border: 1px solid gray;
+}
+.foot_pic p{
+    color: black !important;
+}
+.fot{
+    border-bottom: 1px solid black;
+   
+}
+.footer_text{
+    text-align: center;
+    padding-top: 20px;
+}
+.footer_text span{
+    color: #f08d8b;
+}
+/* footer part end */
+
